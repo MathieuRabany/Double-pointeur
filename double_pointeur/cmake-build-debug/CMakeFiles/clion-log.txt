@@ -1,4 +1,16 @@
 "C:\Program Files\JetBrains\CLion 2019.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\mathi\CLionProjects\git_proj\double_pointeur
 -- Configuring done
--- Generating done
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    main.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: double_pointeur
+
+
 -- Build files have been written to: C:/Users/mathi/CLionProjects/git_proj/double_pointeur/cmake-build-debug
